@@ -2,7 +2,7 @@ web:
   restart: always
   build: ./pyweb
   expose:
-    - "8006"
+    - "8007"
   links:
     - db
   volumes:
